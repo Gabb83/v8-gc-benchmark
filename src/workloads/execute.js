@@ -1,16 +1,25 @@
 // src/workloads/execute.js
 
 const ArrayStructure = require('../structures/array');
+const MapStructure = require('../structures/map');
 const { getMemorySnapshot, forceGC } = require('../utils/memory');
+
+const args = process.argv.slice(2);
+const structureType = args[0] ? args[0].toLowerCase() : 'array';
 
 const WORKLOAD_SIZE = 100000
 
 function runBenchmark() {
   forceGC();
-
   const initialMemory = getMemorySnapshot();
 
-  const structure = new ArrayStructure();
+  let structure;
+  
+  if(structureType === 'map') {
+    structure = new MapStructure();
+  } else{
+    structure = new ArrayStructure();
+  }
 
   // 2. Carga de trabalho: inserção de 100.000 elementos[cite: 1]
   const startTime = process.hrtime.bigint();
@@ -35,7 +44,7 @@ function runBenchmark() {
 
   // 5. Montagem do relatório individual da execução
   const report = {
-    structure: 'Array',
+    structure: structureType.charAt(0).toUpperCase() + structureType.slice(1),
     elements: WORKLOAD_SIZE,
     executionTimeMs,
     memory: {
