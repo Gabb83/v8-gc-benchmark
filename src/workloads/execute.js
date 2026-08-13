@@ -1,5 +1,6 @@
 // src/workloads/execute.js
 
+const ABBStructure = require('../structures/abb');
 const ArrayStructure = require('../structures/array');
 const MapStructure = require('../structures/map');
 const SetStructure = require('../structures/set');
@@ -21,6 +22,8 @@ function runBenchmark() {
     structure = new MapStructure();
   } else if(structureType === 'set') {
     structure = new SetStructure()
+  } else if(structureType === 'abb') {
+    structure = new ABBStructure();
   } else {
     structure = new ArrayStructure();
   }
