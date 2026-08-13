@@ -2,6 +2,8 @@
 
 const ArrayStructure = require('../structures/array');
 const MapStructure = require('../structures/map');
+const SetStructure = require('../structures/set');
+
 const { getMemorySnapshot, forceGC } = require('../utils/memory');
 
 const args = process.argv.slice(2);
@@ -17,11 +19,12 @@ function runBenchmark() {
   
   if(structureType === 'map') {
     structure = new MapStructure();
-  } else{
+  } else if(structureType === 'set') {
+    structure = new SetStructure()
+  } else {
     structure = new ArrayStructure();
   }
 
-  // 2. Carga de trabalho: inserção de 100.000 elementos[cite: 1]
   const startTime = process.hrtime.bigint();
 
   for (let i = 0; i < WORKLOAD_SIZE; i++) {
@@ -29,20 +32,15 @@ function runBenchmark() {
   }
 
   const endTime = process.hrtime.bigint();
-  const executionTimeMs = Number(endTime - startTime) / 1e6; // Converte nanosegundos para ms
-
-  // 3. Captura do pico de memória alocada[cite: 1]
+  const executionTimeMs = Number(endTime - startTime) / 1e6;
   const peakMemory = getMemorySnapshot();
 
-  // 4. Limpeza da estrutura e verificação de desalocação
   structure.clear();
   const postClearMemory = getMemorySnapshot();
 
-  // Força o GC para observar o comportamento de descarte da V8[cite: 1]
   forceGC();
   const postGCMemory = getMemorySnapshot();
 
-  // 5. Montagem do relatório individual da execução
   const report = {
     structure: structureType.charAt(0).toUpperCase() + structureType.slice(1),
     elements: WORKLOAD_SIZE,
