@@ -2,6 +2,7 @@
 
 const ABBStructure = require('../structures/abb');
 const ArrayStructure = require('../structures/array');
+const AVLStructure = require('../structures/avl');
 const MapStructure = require('../structures/map');
 const SetStructure = require('../structures/set');
 
@@ -24,6 +25,8 @@ function runBenchmark() {
     structure = new SetStructure()
   } else if(structureType === 'abb') {
     structure = new ABBStructure();
+  } else if(structureType === 'avl') {
+    structure = new AVLStructure();
   } else {
     structure = new ArrayStructure();
   }
