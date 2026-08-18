@@ -1,0 +1,2137 @@
+[
+  {
+    "structure": "array",
+    "totalRunsExecuted": 40,
+    "validSamplesCount": 30,
+    "samples": [
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 118.358661,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20815216,
+          "peakRss": 80166912,
+          "postClearHeapUsed": 20826768,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 11,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 110.376512,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20505760,
+          "peakRss": 80084992,
+          "postClearHeapUsed": 20779368,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 12,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 116.116019,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20874200,
+          "peakRss": 79347712,
+          "postClearHeapUsed": 20920928,
+          "postGCHeapUsed": 2927696
+        },
+        "runNumber": 13,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 115.174077,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20712656,
+          "peakRss": 80228352,
+          "postClearHeapUsed": 20724216,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 14,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 105.689552,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20572920,
+          "peakRss": 79773696,
+          "postClearHeapUsed": 20584592,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 15,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 110.629135,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20829728,
+          "peakRss": 79704064,
+          "postClearHeapUsed": 20841280,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 16,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 112.103579,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20706448,
+          "peakRss": 79880192,
+          "postClearHeapUsed": 20718000,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 17,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 120.920699,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20804192,
+          "peakRss": 80269312,
+          "postClearHeapUsed": 20815744,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 18,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 112.314459,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20953744,
+          "peakRss": 79872000,
+          "postClearHeapUsed": 20965296,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 19,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.176972,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20760544,
+          "peakRss": 79585280,
+          "postClearHeapUsed": 20780816,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 20,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.99573,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20517704,
+          "peakRss": 80199680,
+          "postClearHeapUsed": 20529256,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 21,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.361403,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20682272,
+          "peakRss": 79982592,
+          "postClearHeapUsed": 20702488,
+          "postGCHeapUsed": 2926144
+        },
+        "runNumber": 22,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 112.696095,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20702584,
+          "peakRss": 80384000,
+          "postClearHeapUsed": 20714136,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 23,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.458522,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20770160,
+          "peakRss": 79958016,
+          "postClearHeapUsed": 20781712,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 24,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.058446,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20582648,
+          "peakRss": 80293888,
+          "postClearHeapUsed": 20594200,
+          "postGCHeapUsed": 3387928
+        },
+        "runNumber": 25,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 120.996274,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20718920,
+          "peakRss": 80437248,
+          "postClearHeapUsed": 20730472,
+          "postGCHeapUsed": 3390864
+        },
+        "runNumber": 26,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 124.825479,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20670296,
+          "peakRss": 80224256,
+          "postClearHeapUsed": 20681848,
+          "postGCHeapUsed": 3390864
+        },
+        "runNumber": 27,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 106.825878,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20490104,
+          "peakRss": 80125952,
+          "postClearHeapUsed": 20501656,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 28,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 111.558449,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20609416,
+          "peakRss": 79953920,
+          "postClearHeapUsed": 20620968,
+          "postGCHeapUsed": 3387928
+        },
+        "runNumber": 29,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 116.783558,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20588728,
+          "peakRss": 80023552,
+          "postClearHeapUsed": 20608944,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 30,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.912816,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20486208,
+          "peakRss": 80527360,
+          "postClearHeapUsed": 20578032,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 31,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 108.515187,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20848880,
+          "peakRss": 80056320,
+          "postClearHeapUsed": 20860432,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 32,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 119.979098,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20830488,
+          "peakRss": 80154624,
+          "postClearHeapUsed": 20842040,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 33,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 114.062933,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20640336,
+          "peakRss": 80334848,
+          "postClearHeapUsed": 20918912,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 34,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 115.845278,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20673296,
+          "peakRss": 79847424,
+          "postClearHeapUsed": 20684848,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 35,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.759029,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20838352,
+          "peakRss": 79503360,
+          "postClearHeapUsed": 20849904,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 36,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 108.537056,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20554488,
+          "peakRss": 79892480,
+          "postClearHeapUsed": 20566040,
+          "postGCHeapUsed": 3390088
+        },
+        "runNumber": 37,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 111.451148,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20728048,
+          "peakRss": 79822848,
+          "postClearHeapUsed": 20739600,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 38,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 113.548519,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20504848,
+          "peakRss": 80629760,
+          "postClearHeapUsed": 20719616,
+          "postGCHeapUsed": 2927696
+        },
+        "runNumber": 39,
+        "isWarmup": false
+      },
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 104.063568,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20866360,
+          "peakRss": 79884288,
+          "postClearHeapUsed": 20877912,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 40,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "map",
+    "totalRunsExecuted": 40,
+    "validSamplesCount": 30,
+    "samples": [
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.250586,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14613096,
+          "peakRss": 61849600,
+          "postClearHeapUsed": 14614288,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 11,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 70.589702,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14587528,
+          "peakRss": 61665280,
+          "postClearHeapUsed": 14588720,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 12,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 126.280667,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14702184,
+          "peakRss": 61448192,
+          "postClearHeapUsed": 14703376,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 13,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 75.931547,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14674944,
+          "peakRss": 61698048,
+          "postClearHeapUsed": 14676136,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 14,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 74.04725,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14633232,
+          "peakRss": 61575168,
+          "postClearHeapUsed": 14634424,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 15,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 68.660312,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14572712,
+          "peakRss": 61722624,
+          "postClearHeapUsed": 14573904,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 16,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 70.37921,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14616928,
+          "peakRss": 61923328,
+          "postClearHeapUsed": 14618120,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 17,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.018809,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14621088,
+          "peakRss": 60657664,
+          "postClearHeapUsed": 14622280,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 18,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 72.324876,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14631568,
+          "peakRss": 61624320,
+          "postClearHeapUsed": 14632760,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 19,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 71.11362,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14554128,
+          "peakRss": 61652992,
+          "postClearHeapUsed": 14555320,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 20,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 70.533442,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14584128,
+          "peakRss": 61894656,
+          "postClearHeapUsed": 14585320,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 21,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.16623,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14588096,
+          "peakRss": 61763584,
+          "postClearHeapUsed": 14589288,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 22,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 76.343819,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14783040,
+          "peakRss": 61763584,
+          "postClearHeapUsed": 14784232,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 23,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.650299,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14563824,
+          "peakRss": 61788160,
+          "postClearHeapUsed": 14565016,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 24,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 71.416118,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14669864,
+          "peakRss": 61632512,
+          "postClearHeapUsed": 14671056,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 25,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 68.820033,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14593368,
+          "peakRss": 61718528,
+          "postClearHeapUsed": 14594560,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 26,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 74.693149,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14636560,
+          "peakRss": 61714432,
+          "postClearHeapUsed": 14637752,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 27,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 73.691714,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14635296,
+          "peakRss": 61771776,
+          "postClearHeapUsed": 14636488,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 28,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 74.419394,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14575256,
+          "peakRss": 61784064,
+          "postClearHeapUsed": 14576448,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 29,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 75.673992,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14665168,
+          "peakRss": 61636608,
+          "postClearHeapUsed": 14666360,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 30,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.213053,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14574352,
+          "peakRss": 61763584,
+          "postClearHeapUsed": 14575544,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 31,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 68.509229,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14569048,
+          "peakRss": 61435904,
+          "postClearHeapUsed": 14570240,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 32,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 71.05704,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14559960,
+          "peakRss": 61616128,
+          "postClearHeapUsed": 14561152,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 33,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.124306,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14576440,
+          "peakRss": 61501440,
+          "postClearHeapUsed": 14577632,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 34,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 199.030864,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14832888,
+          "peakRss": 61505536,
+          "postClearHeapUsed": 14834080,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 35,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 70.387574,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14596128,
+          "peakRss": 61632512,
+          "postClearHeapUsed": 14597320,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 36,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 72.957014,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14687280,
+          "peakRss": 61796352,
+          "postClearHeapUsed": 14688472,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 37,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.368869,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14587216,
+          "peakRss": 61698048,
+          "postClearHeapUsed": 14588408,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 38,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 69.253783,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14591520,
+          "peakRss": 61636608,
+          "postClearHeapUsed": 14592712,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 39,
+        "isWarmup": false
+      },
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 73.690383,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14606224,
+          "peakRss": 61698048,
+          "postClearHeapUsed": 14607416,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 40,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "set",
+    "totalRunsExecuted": 40,
+    "validSamplesCount": 30,
+    "samples": [
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 63.907012,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12622408,
+          "peakRss": 59817984,
+          "postClearHeapUsed": 12623600,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 11,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 68.21082,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12629512,
+          "peakRss": 59584512,
+          "postClearHeapUsed": 12630704,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 12,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 68.467354,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12730984,
+          "peakRss": 59928576,
+          "postClearHeapUsed": 12732176,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 13,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 66.061514,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12545944,
+          "peakRss": 59895808,
+          "postClearHeapUsed": 12547136,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 14,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 64.372489,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12654888,
+          "peakRss": 59535360,
+          "postClearHeapUsed": 12656080,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 15,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 65.711488,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12630088,
+          "peakRss": 59600896,
+          "postClearHeapUsed": 12631280,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 16,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 64.017653,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12688464,
+          "peakRss": 59699200,
+          "postClearHeapUsed": 12689656,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 17,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 71.831764,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12654448,
+          "peakRss": 59830272,
+          "postClearHeapUsed": 12655640,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 18,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 64.473774,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12642496,
+          "peakRss": 59928576,
+          "postClearHeapUsed": 12643688,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 19,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 64.224687,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12649128,
+          "peakRss": 59699200,
+          "postClearHeapUsed": 12650320,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 20,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 63.735875,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12654248,
+          "peakRss": 59666432,
+          "postClearHeapUsed": 12655440,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 21,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 66.789805,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12578432,
+          "peakRss": 59633664,
+          "postClearHeapUsed": 12579624,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 22,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 64.888487,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12641368,
+          "peakRss": 59543552,
+          "postClearHeapUsed": 12642560,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 23,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 71.907605,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12726224,
+          "peakRss": 59863040,
+          "postClearHeapUsed": 12727416,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 24,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 63.991795,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12637184,
+          "peakRss": 59797504,
+          "postClearHeapUsed": 12638376,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 25,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 67.306215,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12778336,
+          "peakRss": 59576320,
+          "postClearHeapUsed": 12779528,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 26,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 63.909322,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12711968,
+          "peakRss": 59666432,
+          "postClearHeapUsed": 12713160,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 27,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 67.117108,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12567272,
+          "peakRss": 59531264,
+          "postClearHeapUsed": 12568464,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 28,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 66.815223,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12623936,
+          "peakRss": 60059648,
+          "postClearHeapUsed": 12625128,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 29,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 67.571535,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12633472,
+          "peakRss": 59678720,
+          "postClearHeapUsed": 12634664,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 30,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 67.535112,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12621592,
+          "peakRss": 59494400,
+          "postClearHeapUsed": 12622784,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 31,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 76.717573,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12600408,
+          "peakRss": 59768832,
+          "postClearHeapUsed": 12601600,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 32,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 63.876931,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12699064,
+          "peakRss": 59518976,
+          "postClearHeapUsed": 12700256,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 33,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 65.466497,
+        "memory": {
+          "initialHeapUsed": 2917856,
+          "peakHeapUsed": 12665896,
+          "peakRss": 59928576,
+          "postClearHeapUsed": 12667088,
+          "postGCHeapUsed": 2926296
+        },
+        "runNumber": 34,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 63.455525,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12642456,
+          "peakRss": 59490304,
+          "postClearHeapUsed": 12643648,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 35,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 71.848093,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12661240,
+          "peakRss": 59994112,
+          "postClearHeapUsed": 12662432,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 36,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 64.8696,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12645352,
+          "peakRss": 59666432,
+          "postClearHeapUsed": 12646544,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 37,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 62.900929,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12650760,
+          "peakRss": 59789312,
+          "postClearHeapUsed": 12651952,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 38,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 68.378273,
+        "memory": {
+          "initialHeapUsed": 2917856,
+          "peakHeapUsed": 12725736,
+          "peakRss": 59854848,
+          "postClearHeapUsed": 12726928,
+          "postGCHeapUsed": 2926296
+        },
+        "runNumber": 39,
+        "isWarmup": false
+      },
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 66.374423,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12678632,
+          "peakRss": 59731968,
+          "postClearHeapUsed": 12679824,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 40,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "abb",
+    "totalRunsExecuted": 40,
+    "validSamplesCount": 30,
+    "samples": [
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 203.70881,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21332456,
+          "peakRss": 78274560,
+          "postClearHeapUsed": 21343976,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 11,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 202.846544,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21546112,
+          "peakRss": 78143488,
+          "postClearHeapUsed": 21557632,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 12,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 202.364961,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21516480,
+          "peakRss": 78004224,
+          "postClearHeapUsed": 21528000,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 13,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 201.26722,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21480312,
+          "peakRss": 78278656,
+          "postClearHeapUsed": 21491832,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 14,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 197.926375,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21331248,
+          "peakRss": 78016512,
+          "postClearHeapUsed": 21342768,
+          "postGCHeapUsed": 2932632
+        },
+        "runNumber": 15,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 198.407565,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21450992,
+          "peakRss": 77950976,
+          "postClearHeapUsed": 21462512,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 16,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 194.242583,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21603744,
+          "peakRss": 77930496,
+          "postClearHeapUsed": 21615264,
+          "postGCHeapUsed": 2932632
+        },
+        "runNumber": 17,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 202.004414,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21505416,
+          "peakRss": 77955072,
+          "postClearHeapUsed": 21516936,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 18,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 241.435003,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21275096,
+          "peakRss": 77910016,
+          "postClearHeapUsed": 21286616,
+          "postGCHeapUsed": 2932632
+        },
+        "runNumber": 19,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 190.48192,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21388376,
+          "peakRss": 77918208,
+          "postClearHeapUsed": 21399896,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 20,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 205.138864,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21467088,
+          "peakRss": 78245888,
+          "postClearHeapUsed": 21478608,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 21,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 204.750857,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21251664,
+          "peakRss": 77946880,
+          "postClearHeapUsed": 21263184,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 22,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 201.644997,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21333928,
+          "peakRss": 78069760,
+          "postClearHeapUsed": 21345448,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 23,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 197.422927,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21349464,
+          "peakRss": 77963264,
+          "postClearHeapUsed": 21360984,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 24,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 189.59612,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21547784,
+          "peakRss": 77832192,
+          "postClearHeapUsed": 21559304,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 25,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 194.800223,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21514408,
+          "peakRss": 78106624,
+          "postClearHeapUsed": 21525928,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 26,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 199.941172,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21466240,
+          "peakRss": 77942784,
+          "postClearHeapUsed": 21477760,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 27,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 190.711067,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21434344,
+          "peakRss": 78065664,
+          "postClearHeapUsed": 21445864,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 28,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 200.359217,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21583080,
+          "peakRss": 77873152,
+          "postClearHeapUsed": 21594600,
+          "postGCHeapUsed": 2932632
+        },
+        "runNumber": 29,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 193.112516,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21292504,
+          "peakRss": 78045184,
+          "postClearHeapUsed": 21304024,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 30,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 208.537416,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21412224,
+          "peakRss": 77893632,
+          "postClearHeapUsed": 21423744,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 31,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 198.864124,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21418504,
+          "peakRss": 77950976,
+          "postClearHeapUsed": 21430024,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 32,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 203.51559,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21414024,
+          "peakRss": 78094336,
+          "postClearHeapUsed": 21425544,
+          "postGCHeapUsed": 2932632
+        },
+        "runNumber": 33,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 191.911437,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21347496,
+          "peakRss": 77930496,
+          "postClearHeapUsed": 21359016,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 34,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 203.715902,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21457112,
+          "peakRss": 78086144,
+          "postClearHeapUsed": 21468632,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 35,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 191.733437,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21582152,
+          "peakRss": 78082048,
+          "postClearHeapUsed": 21593672,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 36,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 193.045621,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21274808,
+          "peakRss": 78086144,
+          "postClearHeapUsed": 21286328,
+          "postGCHeapUsed": 2932632
+        },
+        "runNumber": 37,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 206.818175,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21359176,
+          "peakRss": 77979648,
+          "postClearHeapUsed": 21383512,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 38,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 195.978761,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21415960,
+          "peakRss": 77946880,
+          "postClearHeapUsed": 21427480,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 39,
+        "isWarmup": false
+      },
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 199.84687,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21476320,
+          "peakRss": 78159872,
+          "postClearHeapUsed": 21487840,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 40,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "avl",
+    "totalRunsExecuted": 40,
+    "validSamplesCount": 30,
+    "samples": [
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.075071,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4639736,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4640928,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 11,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.254969,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4729992,
+          "peakRss": 50688000,
+          "postClearHeapUsed": 4731184,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 12,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.586102,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4829696,
+          "peakRss": 50671616,
+          "postClearHeapUsed": 4830888,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 13,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 33.657392,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4816408,
+          "peakRss": 50720768,
+          "postClearHeapUsed": 4817600,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 14,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.632314,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4637656,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4638848,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 15,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.833775,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4647224,
+          "peakRss": 50655232,
+          "postClearHeapUsed": 4648416,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 16,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 33.20738,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4785920,
+          "peakRss": 50704384,
+          "postClearHeapUsed": 4787112,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 17,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 33.137107,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4694312,
+          "peakRss": 50577408,
+          "postClearHeapUsed": 4695504,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 18,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.354315,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4727016,
+          "peakRss": 50753536,
+          "postClearHeapUsed": 4728208,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 19,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.482154,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4727552,
+          "peakRss": 50753536,
+          "postClearHeapUsed": 4728744,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 20,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 33.744051,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 6365032,
+          "peakRss": 50847744,
+          "postClearHeapUsed": 6366224,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 21,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 30.737079,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 6358240,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 6359432,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 22,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.375045,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4851024,
+          "peakRss": 50868224,
+          "postClearHeapUsed": 4852216,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 23,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 36.815547,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4619224,
+          "peakRss": 50688000,
+          "postClearHeapUsed": 4620416,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 24,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 35.215141,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4544512,
+          "peakRss": 50884608,
+          "postClearHeapUsed": 4545704,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 25,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 32.225986,
+        "memory": {
+          "initialHeapUsed": 2917856,
+          "peakHeapUsed": 6117136,
+          "peakRss": 50573312,
+          "postClearHeapUsed": 6118328,
+          "postGCHeapUsed": 2929696
+        },
+        "runNumber": 26,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 32.785223,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4780104,
+          "peakRss": 50839552,
+          "postClearHeapUsed": 4781296,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 27,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.571803,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4739240,
+          "peakRss": 50642944,
+          "postClearHeapUsed": 4740432,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 28,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 33.09909,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4732864,
+          "peakRss": 50876416,
+          "postClearHeapUsed": 4734056,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 29,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 32.152686,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4863496,
+          "peakRss": 50831360,
+          "postClearHeapUsed": 4864688,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 30,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.169626,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4731344,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4732536,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 31,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.783217,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4865416,
+          "peakRss": 50696192,
+          "postClearHeapUsed": 4866608,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 32,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 34.378371,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4581192,
+          "peakRss": 49967104,
+          "postClearHeapUsed": 4582384,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 33,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.20838,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4726248,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4727440,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 34,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.485519,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4640296,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4641488,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 35,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.131442,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4723688,
+          "peakRss": 50753536,
+          "postClearHeapUsed": 4724880,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 36,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.121176,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4632664,
+          "peakRss": 50753536,
+          "postClearHeapUsed": 4633856,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 37,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 34.640792,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4816880,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4818072,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 38,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.825367,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 6332096,
+          "peakRss": 50835456,
+          "postClearHeapUsed": 6333288,
+          "postGCHeapUsed": 2929624
+        },
+        "runNumber": 39,
+        "isWarmup": false
+      },
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 32.105939,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4619456,
+          "peakRss": 50630656,
+          "postClearHeapUsed": 4620648,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 40,
+        "isWarmup": false
+      }
+    ]
+  }
+]

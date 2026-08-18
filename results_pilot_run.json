@@ -1,0 +1,107 @@
+[
+  {
+    "structure": "array",
+    "totalRunsExecuted": 1,
+    "validSamplesCount": 1,
+    "samples": [
+      {
+        "structure": "Array",
+        "elements": 100000,
+        "executionTimeMs": 116.936274,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 20699952,
+          "peakRss": 80105472,
+          "postClearHeapUsed": 20724104,
+          "postGCHeapUsed": 2927496
+        },
+        "runNumber": 1,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "map",
+    "totalRunsExecuted": 1,
+    "validSamplesCount": 1,
+    "samples": [
+      {
+        "structure": "Map",
+        "elements": 100000,
+        "executionTimeMs": 74.696335,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 14722040,
+          "peakRss": 61640704,
+          "postClearHeapUsed": 14723232,
+          "postGCHeapUsed": 2926256
+        },
+        "runNumber": 1,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "set",
+    "totalRunsExecuted": 1,
+    "validSamplesCount": 1,
+    "samples": [
+      {
+        "structure": "Set",
+        "elements": 100000,
+        "executionTimeMs": 67.06087,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 12649688,
+          "peakRss": 59928576,
+          "postClearHeapUsed": 12650880,
+          "postGCHeapUsed": 2926224
+        },
+        "runNumber": 1,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "abb",
+    "totalRunsExecuted": 1,
+    "validSamplesCount": 1,
+    "samples": [
+      {
+        "structure": "Abb",
+        "elements": 100000,
+        "executionTimeMs": 195.990898,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 21354760,
+          "peakRss": 78331904,
+          "postClearHeapUsed": 21366280,
+          "postGCHeapUsed": 2933968
+        },
+        "runNumber": 1,
+        "isWarmup": false
+      }
+    ]
+  },
+  {
+    "structure": "avl",
+    "totalRunsExecuted": 1,
+    "validSamplesCount": 1,
+    "samples": [
+      {
+        "structure": "Avl",
+        "elements": 100000,
+        "executionTimeMs": 31.373446,
+        "memory": {
+          "initialHeapUsed": 2917784,
+          "peakHeapUsed": 4639216,
+          "peakRss": 50622464,
+          "postClearHeapUsed": 4640408,
+          "postGCHeapUsed": 2931864
+        },
+        "runNumber": 1,
+        "isWarmup": false
+      }
+    ]
+  }
+]
