@@ -7,13 +7,13 @@
       {
         "structure": "Array",
         "elements": 100000,
-        "executionTimeMs": 116.936274,
+        "executionTimeMs": 115.74886,
         "memory": {
           "initialHeapUsed": 2917784,
-          "peakHeapUsed": 20699952,
-          "peakRss": 80105472,
-          "postClearHeapUsed": 20724104,
-          "postGCHeapUsed": 2927496
+          "peakHeapUsed": 20686336,
+          "peakRss": 79380480,
+          "postClearHeapUsed": 20697888,
+          "postGCHeapUsed": 3387928
         },
         "runNumber": 1,
         "isWarmup": false
@@ -28,12 +28,12 @@
       {
         "structure": "Map",
         "elements": 100000,
-        "executionTimeMs": 74.696335,
+        "executionTimeMs": 67.717935,
         "memory": {
           "initialHeapUsed": 2917784,
-          "peakHeapUsed": 14722040,
-          "peakRss": 61640704,
-          "postClearHeapUsed": 14723232,
+          "peakHeapUsed": 14583456,
+          "peakRss": 61026304,
+          "postClearHeapUsed": 14584648,
           "postGCHeapUsed": 2926256
         },
         "runNumber": 1,
@@ -49,12 +49,12 @@
       {
         "structure": "Set",
         "elements": 100000,
-        "executionTimeMs": 67.06087,
+        "executionTimeMs": 65.474241,
         "memory": {
           "initialHeapUsed": 2917784,
-          "peakHeapUsed": 12649688,
-          "peakRss": 59928576,
-          "postClearHeapUsed": 12650880,
+          "peakHeapUsed": 12648688,
+          "peakRss": 59097088,
+          "postClearHeapUsed": 12649880,
           "postGCHeapUsed": 2926224
         },
         "runNumber": 1,
@@ -70,13 +70,13 @@
       {
         "structure": "Abb",
         "elements": 100000,
-        "executionTimeMs": 195.990898,
+        "executionTimeMs": 200.946994,
         "memory": {
           "initialHeapUsed": 2917784,
-          "peakHeapUsed": 21354760,
-          "peakRss": 78331904,
-          "postClearHeapUsed": 21366280,
-          "postGCHeapUsed": 2933968
+          "peakHeapUsed": 21466888,
+          "peakRss": 77492224,
+          "postClearHeapUsed": 21478408,
+          "postGCHeapUsed": 2932632
         },
         "runNumber": 1,
         "isWarmup": false
@@ -91,12 +91,12 @@
       {
         "structure": "Avl",
         "elements": 100000,
-        "executionTimeMs": 31.373446,
+        "executionTimeMs": 32.308959,
         "memory": {
           "initialHeapUsed": 2917784,
-          "peakHeapUsed": 4639216,
-          "peakRss": 50622464,
-          "postClearHeapUsed": 4640408,
+          "peakHeapUsed": 4784480,
+          "peakRss": 49950720,
+          "postClearHeapUsed": 4785672,
           "postGCHeapUsed": 2931864
         },
         "runNumber": 1,
