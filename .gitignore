@@ -2,3 +2,7 @@ node_modules/
 *.log
 .vscode/
 .idea/
+
+.venv/
+.results_full_suite.json
+.results_pilot_run.json
