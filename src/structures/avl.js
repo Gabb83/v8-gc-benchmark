@@ -1,6 +1,6 @@
 class No {
-  contrcutor(key, value) {
-    this.key = key
+  constructor(key, value) { 
+    this.key = key;
     this.value = value; 
     this.esquerda = null;
     this.direita = null; 
@@ -9,7 +9,7 @@ class No {
 }
 
 class AVLStructure {
-  contrcutor() {
+  constructor() {
     this.raiz = null;
     this._size = 0;
   }
@@ -26,9 +26,11 @@ class AVLStructure {
     no.altura = 1 + Math.max(this.getAltura(no.esquerda), this.getAltura(no.direita));
   }
 
-  rotaçãoDir(y) {
+  rotacaoDireita(y) {
     const x = y.esquerda;
-    const T2 = x.direita;
+    const T2 = x ? x.direita : null;
+
+    if (!x) return y;
 
     x.direita = y;
     y.esquerda = T2;
@@ -39,9 +41,11 @@ class AVLStructure {
     return x;
   }
 
-  rotateEsq(x) {
+  rotacaoEsquerda(x) {
     const y = x.direita;
-    const T2 = y.esquerda;
+    const T2 = y ? y.esquerda : null;
+
+    if (!y) return x;
 
     y.esquerda = x;
     x.direita = T2;
@@ -54,17 +58,17 @@ class AVLStructure {
 
   insert(key, value) {
     this.raiz = this._insertNo(this.raiz, key, value);
-    this._size++;
   }
 
   _insertNo(no, key, value) {
-    if(!no) {
+    if (!no) {
+      this._size++;
       return new No(key, value);
     }
 
     if(key < no.key) {
-      no.left = this._insertNo(no.esquerda, key, value);
-    } else if (key > no.key) {
+      no.esquerda = this._insertNo(no.esquerda, key, value);
+    } else if(key > no.key) {
       no.direita = this._insertNo(no.direita, key, value);
     } else {
       no.value = value;
@@ -74,22 +78,22 @@ class AVLStructure {
     this.atualizarAltura(no);
     const balanceamento = this.getFatorBalanceamento(no);
 
-    if (balanceamento > 1 && key < no.esquerda.key) {
-      return this.rotateDir(no);
+    if (balanceamento > 1 && no.esquerda && key < no.esquerda.key) {
+      return this.rotacaoDireita(no);
     }
 
-    if (balanceamento < -1 && key > no.direita.key) {
-      return this.rotateEsq(no);
+    if (balanceamento < -1 && no.direita && key > no.direita.key) {
+      return this.rotacaoEsquerda(no);
     }
 
-    if (balanceamento > 1 && key > no.esquerda.key) {
-      no.esquerda = this.rotateEsq(no.esquerda);
-      return this.rotateDir(no);
+    if(balanceamento > 1 && no.esquerda && key > no.esquerda.key) {
+      no.esquerda = this.rotacaoEsquerda(no.esquerda);
+      return this.rotacaoDireita(no);
     }
 
-    if (balanceamento < -1 && key < no.direita.key) {
-      no.direita = this.rotateDir(no.direita);
-      return this.rotateEsq(no);
+    if(balanceamento < -1 && no.direita && key < no.direita.key) {
+      no.direita = this.rotacaoDireita(no.direita);
+      return this.rotacaoEsquerda(no);
     }
 
     return no;
@@ -100,7 +104,7 @@ class AVLStructure {
     this._size = 0;
   }
 
-  _size() {
+  get size() {
     return this._size;
   }
 }
