@@ -1,5 +1,3 @@
-// src/structures/array.js
-
 class ArrayStructure {
   constructor() {
     this.data = [];

@@ -1,12 +1,10 @@
-// src/structures/map.js
-
 class MapStructure {
   constructor() {
     this.data = new Map();
   }
 
-  insert(value) {
-    this.data.set(value);
+  insert(key, value) {
+    this.data.set(key, value);
   }
 
   clear() {

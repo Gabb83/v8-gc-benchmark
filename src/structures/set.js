@@ -1,12 +1,10 @@
-//src/structures/set.js
-
 class SetStructure {
   constructor() {
     this.data = new Set();
   }
 
-  insert(value) {
-    this.data.add(value);
+  insert(key, value) {
+    this.data.add({key, value});
   }
 
   clear() {
