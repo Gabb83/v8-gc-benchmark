@@ -18,5 +18,4 @@ class MapStructure {
   }
 }
 
-// Correção: Adicionado o "s" no exports
 module.exports = MapStructure;

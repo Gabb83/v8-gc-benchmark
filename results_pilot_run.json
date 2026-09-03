@@ -7,13 +7,28 @@
       {
         "structure": "Array",
         "elements": 100000,
-        "executionTimeMs": 115.74886,
+        "executionTimeMs": 119.440256,
         "memory": {
-          "initialHeapUsed": 2917784,
-          "peakHeapUsed": 20686336,
-          "peakRss": 79380480,
-          "postClearHeapUsed": 20697888,
-          "postGCHeapUsed": 3387928
+          "initialHeapUsed": 3220808,
+          "peakHeapUsed": 20851128,
+          "peakRss": 80302080,
+          "postClearHeapUsed": 20865992,
+          "postGCHeapUsed": 3035728,
+          "allocatedBytes": 17630320,
+          "promotedToOldSpaceBytes": 14485808,
+          "promotionRatePercentage": 82.16
+        },
+        "gcMetrics": {
+          "totalGcEvents": 13,
+          "minorGcCount": 9,
+          "majorGcCount": 4,
+          "totalGcPauseMs": 104.078,
+          "avgGcPauseMs": 8.006,
+          "maxGcPauseMs": 29.604
+        },
+        "throughput": {
+          "elementsPerSecond": 837238.66,
+          "megabytesPerSecond": 140.77
         },
         "runNumber": 1,
         "isWarmup": false
@@ -28,13 +43,28 @@
       {
         "structure": "Map",
         "elements": 100000,
-        "executionTimeMs": 67.717935,
+        "executionTimeMs": 70.561418,
         "memory": {
-          "initialHeapUsed": 2917784,
-          "peakHeapUsed": 14583456,
-          "peakRss": 61026304,
-          "postClearHeapUsed": 14584648,
-          "postGCHeapUsed": 2926256
+          "initialHeapUsed": 3220808,
+          "peakHeapUsed": 15124952,
+          "peakRss": 62103552,
+          "postClearHeapUsed": 15128176,
+          "postGCHeapUsed": 3034552,
+          "allocatedBytes": 11904144,
+          "promotedToOldSpaceBytes": 2222328,
+          "promotionRatePercentage": 18.67
+        },
+        "gcMetrics": {
+          "totalGcEvents": 9,
+          "minorGcCount": 7,
+          "majorGcCount": 2,
+          "totalGcPauseMs": 27.409,
+          "avgGcPauseMs": 3.045,
+          "maxGcPauseMs": 6.487
+        },
+        "throughput": {
+          "elementsPerSecond": 1417205.08,
+          "megabytesPerSecond": 160.89
         },
         "runNumber": 1,
         "isWarmup": false
@@ -49,13 +79,28 @@
       {
         "structure": "Set",
         "elements": 100000,
-        "executionTimeMs": 65.474241,
+        "executionTimeMs": 65.572624,
         "memory": {
-          "initialHeapUsed": 2917784,
-          "peakHeapUsed": 12648688,
-          "peakRss": 59097088,
-          "postClearHeapUsed": 12649880,
-          "postGCHeapUsed": 2926224
+          "initialHeapUsed": 3220808,
+          "peakHeapUsed": 13065568,
+          "peakRss": 60112896,
+          "postClearHeapUsed": 13068792,
+          "postGCHeapUsed": 3034520,
+          "allocatedBytes": 9844760,
+          "promotedToOldSpaceBytes": 2244016,
+          "promotionRatePercentage": 22.79
+        },
+        "gcMetrics": {
+          "totalGcEvents": 9,
+          "minorGcCount": 7,
+          "majorGcCount": 2,
+          "totalGcPauseMs": 27.062,
+          "avgGcPauseMs": 3.007,
+          "maxGcPauseMs": 6.379
+        },
+        "throughput": {
+          "elementsPerSecond": 1525026.66,
+          "megabytesPerSecond": 143.18
         },
         "runNumber": 1,
         "isWarmup": false
@@ -70,13 +115,28 @@
       {
         "structure": "Abb",
         "elements": 100000,
-        "executionTimeMs": 200.946994,
+        "executionTimeMs": 238.934798,
         "memory": {
-          "initialHeapUsed": 2917784,
-          "peakHeapUsed": 21466888,
-          "peakRss": 77492224,
-          "postClearHeapUsed": 21478408,
-          "postGCHeapUsed": 2932632
+          "initialHeapUsed": 3220808,
+          "peakHeapUsed": 21503544,
+          "peakRss": 78254080,
+          "postClearHeapUsed": 21518376,
+          "postGCHeapUsed": 3042248,
+          "allocatedBytes": 18282736,
+          "promotedToOldSpaceBytes": 14911072,
+          "promotionRatePercentage": 81.56
+        },
+        "gcMetrics": {
+          "totalGcEvents": 12,
+          "minorGcCount": 8,
+          "majorGcCount": 4,
+          "totalGcPauseMs": 108.416,
+          "avgGcPauseMs": 9.035,
+          "maxGcPauseMs": 24.968
+        },
+        "throughput": {
+          "elementsPerSecond": 418524.22,
+          "megabytesPerSecond": 72.97
         },
         "runNumber": 1,
         "isWarmup": false
@@ -91,13 +151,28 @@
       {
         "structure": "Avl",
         "elements": 100000,
-        "executionTimeMs": 32.308959,
+        "executionTimeMs": 36.584647,
         "memory": {
-          "initialHeapUsed": 2917784,
-          "peakHeapUsed": 4784480,
-          "peakRss": 49950720,
-          "postClearHeapUsed": 4785672,
-          "postGCHeapUsed": 2931864
+          "initialHeapUsed": 3220808,
+          "peakHeapUsed": 5020992,
+          "peakRss": 51290112,
+          "postClearHeapUsed": 5024216,
+          "postGCHeapUsed": 3040160,
+          "allocatedBytes": 1800184,
+          "promotedToOldSpaceBytes": 971336,
+          "promotionRatePercentage": 53.96
+        },
+        "gcMetrics": {
+          "totalGcEvents": 12,
+          "minorGcCount": 10,
+          "majorGcCount": 2,
+          "totalGcPauseMs": 27.606,
+          "avgGcPauseMs": 2.301,
+          "maxGcPauseMs": 8.576
+        },
+        "throughput": {
+          "elementsPerSecond": 2733387.04,
+          "megabytesPerSecond": 46.93
         },
         "runNumber": 1,
         "isWarmup": false
