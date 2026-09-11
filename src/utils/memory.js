@@ -1,5 +1,3 @@
-// src/utils/memory.js
-
 const v8 = require('v8');
 
 function getMemorySnapshot() {
