@@ -1,6 +1,7 @@
 const { execSync } = require('child_process');
 const readline = require('readline');
 const fs = require('fs');
+const path = require('path');
 
 const STRUCTURES = ['array', 'map', 'set', 'abb', 'avl'];
 const WARMUP_RUNS = 10;
@@ -37,10 +38,8 @@ rl.question('Deseja executar a Bateria Completa (40 execuções com Warm-up)? [S
           { encoding: 'utf-8' }
         );
 
-        // Exibe os logs do trace-gc no terminal
         console.log(output);
 
-        // Extrai e armazena o JSON do relatório impresso pelo execute.js
         const jsonMatch = output.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
           const report = JSON.parse(jsonMatch[0]);
@@ -64,12 +63,18 @@ rl.question('Deseja executar a Bateria Completa (40 execuções com Warm-up)? [S
     });
   });
 
-  // Salva o resultado consolidado em JSON para leitura posterior via Python
-  const outputFile = isFullSuite ? 'results_full_suite.json' : 'results_pilot_run.json';
-  fs.writeFileSync(outputFile, JSON.stringify(allResults, null, 2));
+  const outputDir = path.join(__dirname, 'data', 'raw');
+  if(!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  const fileName = isFullSuite? 'results_full_suite.json' : 'results_pilot_run.json';
+  const outputPath = path.join(outputDir, fileName);
+
+  fs.writeFileSync(outputPath, JSON.stringify(allResults, null, 2));
 
   console.log('\n==================================================');
-  console.log(` TESTES CONCLUÍDOS! Dados salvos em: ${outputFile}`);
+  console.log(` TESTES CONCLUÍDOS! Dados salvos em: ${outputPath}`);
   console.log('==================================================\n');
 
   rl.close();
