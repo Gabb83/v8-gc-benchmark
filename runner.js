@@ -7,13 +7,49 @@ const STRUCTURES = ['array', 'map', 'set', 'abb', 'avl'];
 const WARMUP_RUNS = 10;
 const VALID_RUNS = 30;
 
+function showHeaderMenu() {
+  console.log('\n================================================================');
+  console.log('           ⚡ V8 GARBAGE COLLECTION BENCHMARK RUNNER ⚡           ');
+  console.log('================================================================');
+
+  console.log('Selecione o modo de execução: \n');
+  console.log('[1] | Bateria completa (40 execuções: 10 warm-up (descartadas) + 30 válidas)');
+  console.log('[2] | Teste piloto (1 execução sem warm-up)');
+  console.log('[0] | Sair');
+  console.log('----------------------------------------------------------------');
+}
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-rl.question('Deseja executar a Bateria Completa (40 execuções com Warm-up)? [S/N]: ', (answer) => {
-  const isFullSuite = answer.trim().toUpperCase() === 'S';
+showHeaderMenu();
+
+rl.question('Digite uma opção [1, 2 ou 0]: ', (answer) => {
+  let isFullSuite;
+
+  switch(answer.trim()) {
+    case '1': {
+      isFullSuite = true;
+      break;
+    }
+    case '2': {
+      isFullSuite = false;
+      break;
+    }
+    case '0': {
+      console.log('\nOperação cancelada. Saindo...\n');
+      rl.close();
+      process.exit(0);
+    } 
+    default: {
+      console.log('\nOperação inválida. Saindo...\n');
+      rl.close();
+      process.exit(1);
+    }
+  }
+
   const totalRuns = isFullSuite ? (WARMUP_RUNS + VALID_RUNS) : 1;
 
   console.log('\n==================================================');
@@ -26,7 +62,7 @@ rl.question('Deseja executar a Bateria Completa (40 execuções com Warm-up)? [S
     console.log(`\nEXECUTANDO: ${structure.toUpperCase()}`);
     const structureResults = [];
 
-    for (let run = 1; run <= totalRuns; run++) {
+    for(let run = 1; run <= totalRuns; run++) {
       const isWarmup = isFullSuite && run <= WARMUP_RUNS;
       const statusLabel = isWarmup ? `[WARM-UP ${run}/${WARMUP_RUNS}]` : `[AMOSTRA VÁLIDA ${isFullSuite ? run - WARMUP_RUNS : 1}]`;
 
