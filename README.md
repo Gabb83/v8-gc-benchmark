@@ -16,3 +16,8 @@ It is an aplication that measures the impact of data structures on performance, 
   - Análise de memória: Heap Used, Heap Peak e RSS memory.
   - Análise do Garbage Collector: Tempo de pausa, número de minor e major GC, taxa de promoção.
   - Tempo de resposta por latência média (ms). 
+
+## Ambiente de Teste
+Antes de executar os tester com o comando: `node runner.js`, certifique-se de que o ambiente de teste esteja configurado corretamente. As versões recomendadas são:
+- Node.js v24.20.0
+- NPM v11.19.0
