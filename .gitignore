@@ -5,5 +5,7 @@ node_modules/
 
 .venv/
 .results_full_suite.json
+results_full_suite.json
+
 .results_pilot_run.json
 results_pilot_run.json
