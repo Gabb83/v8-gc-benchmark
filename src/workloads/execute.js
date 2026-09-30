@@ -10,7 +10,6 @@ const SetStructure = require('../structures/set');
 
 const { getMemorySnapshot, forceGC } = require('../utils/memory');
 
-// Array acumulador de eventos no escopo de módulo
 const gcEntries = [];
 
 const obs = new PerformanceObserver((list) => {
@@ -18,7 +17,6 @@ const obs = new PerformanceObserver((list) => {
   gcEntries.push(...entries);
 });
 
-// Registra a escuta do canal de GC
 obs.observe({ entryTypes: ['gc'], buffered: true });
 
 const args = process.argv.slice(2);
@@ -26,7 +24,6 @@ const structureType = args[0] ? args[0].toLowerCase() : 'array';
 const WORKLOAD_SIZE = 100000;
 
 async function runBenchmark() {
-  // Limpa o ambiente e reseta o histórico
   forceGC();
   performance.clearMarks();
 
@@ -65,9 +62,6 @@ async function runBenchmark() {
 
   forceGC();
   const postGCMemory = getMemorySnapshot();
-
-  // OBRIGATÓRIO NO NODE 20+: Aguarda a libuv processar as filas pendentes 
-  // do PerformanceObserver antes de fazer a leitura dos dados.
   await sleep(100);
 
   let minorGcCount = 0;
@@ -80,7 +74,6 @@ async function runBenchmark() {
     totalGcPauseMs += duration;
     gcPauses.push(duration);
 
-    // Extrai o tipo exato a partir das constantes de performance do Node 20
     const gcKind = entry.detail ? entry.detail.kind : entry.kind;
 
     if (
