@@ -2,8 +2,9 @@ node_modules/
 *.log
 .vscode/
 .idea/
-
 .venv/
+__pycache__
+
 .results_full_suite.json
 results_full_suite.json
 
